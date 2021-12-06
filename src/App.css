@@ -14,6 +14,8 @@
 }
 
 .App-header {
+  margin: 0;
+  padding: 0;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +24,31 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.btn-container {
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  gap: 12px;
+  bottom: 150px;
+}
+
+.Quote-text {
+  display:  flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 50px 50px 10px;
+}
+
+.Quote-author {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-style: italic;
 }
 
 .App-link {
