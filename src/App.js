@@ -39,7 +39,6 @@ export default function App() {
       </h2>
       <div className="btn-container">
         <button className="buttons" onClick={handleRandomClick}>New Quote</button>
-        <button className="buttons" onClick=  {handleBackClick}>Back</button>
       </div>
     </div>
   );
